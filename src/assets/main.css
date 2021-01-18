@@ -1,0 +1,130 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+@tailwind  utilities;
+/* purgecss end ignore */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2b6cb0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    transition: box-shadow .2s, width .2s, opacity 1s;
+    transition-delay: .4s;
+}
+.navbar:hover {
+    transition-delay: 0s;
+}
+
+.navbar-icon {
+    @apply w-8 fill-current opacity-50;
+}
+
+.navbar-icon-small {
+    @apply w-4 fill-current opacity-50;
+}
+
+.navbar-link-text-small {
+    @apply antialiased text-xs ml-2;
+}
+
+.navbar-link {
+    @apply flex justify-start items-center px-2 mb-2 w-full text-white;
+}
+
+.navbar-link:last-child {
+    @apply mb-0;
+}
+
+.navbar-link-text {
+    @apply uppercase ml-1 tracking-widest text-sm antialiased;
+    transition-delay: .7s;
+}
+
+.navbar:hover > .navbar-link-text {
+    transition-delay: 0s;
+}
+
+.navbar-link:hover > * {
+    @apply opacity-100;
+    transition: opacity .2s;
+}
+
+.navbar-link:hover {
+    @apply bg-blue-800 shadow-2xl;
+}
+
+.router-link-exact-active > .navbar-icon {
+    @apply opacity-100;
+}
+.router-link-exact-active {
+    @apply bg-blue-800;
+}
+
+.lds-heart {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    transform: rotate(45deg);
+    transform-origin: 32px 32px;
+}
+.lds-heart div {
+    top: 23px;
+    left: 19px;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    animation: lds-heart .6s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: #fff;
+}
+.lds-heart div:before {
+    left: -17px;
+    border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+    top: -17px;
+    border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+    0% {
+        transform: scale(0.95);
+    }
+    5% {
+        transform: scale(1.1);
+    }
+    39% {
+        transform: scale(0.85);
+    }
+    45% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
