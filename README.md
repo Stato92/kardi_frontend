@@ -43,6 +43,46 @@ This is a Vue.js single-page application which is designed to work with the back
 * eslint-plugin-vue 6.1.2
 * vue-template-compiler 2.6.11
 
+## Interface
+### Logging in
+![Logging in](https://github.com/Stato92/kardi_frontend/blob/master/docs/logowanie_shorter.gif)
+
+### Main menu
+![Main menu](https://github.com/Stato92/kardi_frontend/blob/master/docs/prezentacja%20menu.gif)
+
+### Adding patient
+![Adding patient](https://github.com/Stato92/kardi_frontend/blob/master/docs/dodawanie%20pacjenta.gif)
+
+### Editing patient
+![Editing patient](https://github.com/Stato92/kardi_frontend/blob/master/docs/websockety%20edytowanie%20pacjenta.gif)
+
+### Removing patient
+![Removing patient](https://github.com/Stato92/kardi_frontend/blob/master/docs/websockety%20usuwanie%20pacjenta.gif)
+
+### Filtering patients
+![Filtering patients](https://github.com/Stato92/kardi_frontend/blob/master/docs/filtrowanie%20pacjent%C3%B3w.gif)
+
+### Sorting patients
+![Sorting patients](https://github.com/Stato92/kardi_frontend/blob/master/docs/sortowanie%20pacjent%C3%B3w.gif)
+
+### Patients search
+![Patients search](https://github.com/Stato92/kardi_frontend/blob/master/docs/wyszukiwanie_pacjentow.gif)
+
+### Adding patient comment
+![Adding patient comment](https://github.com/Stato92/kardi_frontend/blob/master/docs/dodawanie%20komentarza%20do%20pacjenta.gif)
+
+### Editing patient comment
+![Editing patient comment](https://github.com/Stato92/kardi_frontend/blob/master/docs/edycja%20komentarza.gif)
+
+### Multifunctional button
+![Multifunctional button](https://github.com/Stato92/kardi_frontend/blob/master/docs/multifunkcyjny%20przycisk.gif)
+
+### Previewing patient file
+![Previewing patient file](https://github.com/Stato92/kardi_frontend/blob/master/docs/podgl%C4%85d%20pliku%20pacjenta.gif)
+
+### Search
+![Search](https://github.com/Stato92/kardi_frontend/blob/master/docs/wyszukiwarka.gif)
+
 ## Project setup
 ```
 npm install
